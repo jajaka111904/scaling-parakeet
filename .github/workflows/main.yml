@@ -13,7 +13,7 @@ jobs:
       - name: Check run date
         id: check_date
         run: |
-          TARGET_DATE="2025-10-21"
+          TARGET_DATE="2025-10-22"
           CURRENT_DATE=$(date +%Y-%m-%d)
           echo "Current date is $CURRENT_DATE"
           echo "Target date to start is $TARGET_DATE"
